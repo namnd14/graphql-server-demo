@@ -14,3 +14,7 @@ type Author {
     firstName: String
     lastName: String
 }
+
+type Mutation {
+  addNewAuthor(id: String!, firstName: String!, lastName: String!): Author
+}
